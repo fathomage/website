@@ -1,2 +1,3 @@
-# fathomage
-Website for consulting business
+# Fathomage Software
+Public Website 
+https://fathomage.com
