@@ -107,8 +107,8 @@ Remember, serverless isn’t a silver bullet—it’s a powerful tool in your de
         margin-top: 20px;
     }
     .author img {
-        width: 50px;
-        height: 50px;
+        width: 64px;
+        height: 64px;
         border-radius: 50%;
         margin-right: 10px;
     }
