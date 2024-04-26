@@ -30,6 +30,7 @@
 ## QA
 * Nightwatch
 * Selenium
+* REST Assured
 ## (future)
 * Blockchain / Ethereum VM
 * Next.js / SSR / GraphQL @Rey??
