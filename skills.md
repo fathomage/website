@@ -1,20 +1,22 @@
 # Areas of Expertise
-## Architecture
-* API design
-* Microservices
+## Design Patterns
+* REST APIs
+* Microservices architecture
 * OAuth / OpenID Connect
-* Serverless (AWS Lambda)
-* Microfrontend architecture
 * Event-driven architecture
+* Reactive systems design
 * Message-oriented middleware
+* Serverless apps (AWS Lambda)
+* Microfrontend architecture
 ## Development
 * Java
 * Spring Boot
 * Spring Data
 * Spring Security
+* Typescript
 * React
 * Angular
-* Typescript 
+* Node.js
 * JSON / YAML / XML
 * Agile / Scrum / Kanban
 ## Infrastructure & DevOps
@@ -30,7 +32,8 @@
 ## QA
 * Nightwatch
 * Selenium
+* Cucumber
 ## (future)
-* Blockchain / Ethereum VM
-* Next.js / SSR / GraphQL @Rey??
-* AI - TensorFlow @Nico??
+* Blockchain / Ethereum VM @Travis
+* Next.js / SSR / GraphQL @Rey
+* AI - TensorFlow @Nico
