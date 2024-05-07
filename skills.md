@@ -31,6 +31,7 @@
 * CI/CD (Jenkins, CircleCI)
 ## QA
 * Nightwatch
+* REST Assured
 * Selenium
 * Cucumber
 ## (future)
