@@ -1,0 +1,68 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Design Patterns",
+    description:
+      "REST APIs, Microservices architecture, and Serverless computing are the foundation of our expertise.",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Development",
+    description:
+      "Java, Spring Boot, Spring Data, Spring Security, Typescript, Angular, React and Node.js are our core technologies.",
+    icon: "bx:bxs-layer",
+  },
+  {
+    title: "Infrastructure & DevOps",
+    description:
+      "Relational Databases, Non-relational databases, Application Integration (Mulesoft, Salesforce, Zapier, Make.com)",
+    icon: "bx:bxs-server",
+  },
+  {
+    title: "QA",
+    description:
+      "Automated Testing, Continuous Integration, Continuous Deployment, and Test-Driven Development are our core principles.",
+    icon: "bx:bxs-user-circle",
+  },
+  {
+    title: "Agaile",
+    description:
+      "At the heart of our approach lie the foundational principles of Scrum, Kanban, Lean, and Agile methodologies.",
+    icon: "bx:bxs-time",
+  },
+  {
+    title: "(future)",
+    description:
+      "Blockchain / Ethereum VM, Next.js / SSR / GraphQL, and AI / Generative AI are our next areas of expertise.",
+    icon: "bx:bxs-search",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+    The Foundation of our expertise
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Unlocking Success: Harnessing Cutting-Edge Technologies, Unparalleled Experience, and Robust Processes in Enterprise Software Development.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

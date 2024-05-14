@@ -1,0 +1,22 @@
+---
+// @ts-ignore
+import { Picture } from "astro:assets";
+import turnitin from '@assets/logos/turnitin.svg';
+import image365 from '@assets/logos/365.svg';
+import allegis from '@assets/logos/allegis.png';
+import stleo from '@assets/logos/stleo.svg';
+import cap from '@assets/logos/cap.png';
+import technews from '@assets/logos/technews.svg';
+---
+
+<div class="mt-24">
+  <h2 class="text-center text-slate-500">Our Customers</h2>
+  <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
+    <Picture src={turnitin} alt='' width={100}/>
+    <Picture src={image365} alt='' width={100}/>
+    <Picture src={allegis} alt='' width={100}/>
+    <Picture src={cap} alt='' width={200}/>
+    <Picture src={stleo} alt='' height={50}/>
+    <Picture src={technews} alt='' width={100}/>
+  </div>
+</div>
